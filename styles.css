@@ -1,0 +1,136 @@
+@charset "utf-8";
+body {
+	background-color: #EFF5F8;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#mainContainer {
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 740px;
+	max-width: 1000px;
+}
+#banner img {
+	width: 100%;
+}
+h1, h2 {
+	color: #3399CC;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 600;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 72px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#navigation ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+#navigation ul li a {
+	text-decoration: none;
+	float: left;
+	width: 20%;
+	background-color: #4D4D4D;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-transform: uppercase;
+	display: block;
+}
+#navigation a:hover, #navigation a:focus  , #navigation a.thispage, #navigation a:active{
+	background-color: #43A6CB;
+	text-decoration: none;
+}
+#footer {
+	background-color: #4D4D4D;
+	clear: both;
+	color: #FFFFFF;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 2%;
+}
+#footer ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+#footer ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+#end {
+	clear: both;
+	text-align: center;
+}
+
+figure {
+	min-width: 200px;
+	max-width: 420px;
+}
+figure img {
+	box-shadow: 1px 1px 15px #999999;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.OneColumn {
+	width: 100%;
+}
+.TwoColumns {
+	width: 45%;
+	float: left;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.ThreeColumns {
+	width: 30%;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#banner  {
+	position: relative;
+	clear: left;
+}
+
+#banner #article  {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	background-color: #BDC8C1;
+	color: #FFFFFF;
+	border-radius: 15px;
+	width: 35%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+
+#banner #article h2 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
