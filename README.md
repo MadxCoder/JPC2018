@@ -1,1 +1,1 @@
-# JPC2018
+visit https://madxcoder.github.io/JPC2018 to see the website
